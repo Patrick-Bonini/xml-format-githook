@@ -123,11 +123,6 @@ repos:
     rev: v1.0.1
     hooks:
       - id: format-xmllint
-        name: Formats XML, HTML, and HTM files
-        description: Automatically format XML, HTML, and HTM files using xmllint --format
-        args: [-i]  # This option overwrites the original file with the correct format
-        language: script
-        files: \.(xml|html|htm)$  # Targets .xml, .html, and .htm files
 ```
 
 ### Explanation:
